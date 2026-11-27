@@ -1,0 +1,16 @@
+{
+  "name": "AI 日报",
+  "short_name": "AI 日报",
+  "description": "每天自动汇集最新 AI 新闻、博客、论文和视频",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07080F",
+  "theme_color": "#07080F",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

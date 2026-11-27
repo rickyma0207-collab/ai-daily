@@ -1,0 +1,36 @@
+[
+  {"name": "OpenAI", "url": "https://openai.com/news/rss.xml", "cat": "blog", "limit": 15},
+  {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "cat": "blog", "limit": 15},
+  {"name": "Google AI", "url": "https://blog.google/technology/ai/rss/", "cat": "blog", "limit": 15},
+  {"name": "Google Research", "url": "https://research.google/blog/rss/", "cat": "blog", "limit": 15},
+  {"name": "Microsoft Research", "url": "https://www.microsoft.com/en-us/research/feed/", "cat": "blog", "limit": 15},
+  {"name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "cat": "blog", "limit": 15},
+  {"name": "NVIDIA", "url": "https://blogs.nvidia.com/feed/", "cat": "blog", "limit": 15, "filter": true},
+  {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "cat": "blog", "limit": 15},
+
+  {"name": "Hacker News", "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+Claude+OR+Gemini&points=50", "cat": "news", "limit": 30},
+  {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "cat": "news", "limit": 20},
+  {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "cat": "news", "limit": 20},
+  {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "cat": "news", "limit": 15},
+
+  {"name": "arXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "cat": "paper", "limit": 30},
+  {"name": "arXiv cs.CL", "url": "https://rss.arxiv.org/rss/cs.CL", "cat": "paper", "limit": 30},
+  {"name": "arXiv cs.LG", "url": "https://rss.arxiv.org/rss/cs.LG", "cat": "paper", "limit": 30},
+
+  {"name": "Two Minute Papers", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg", "cat": "video", "limit": 10},
+  {"name": "Yannic Kilcher", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew", "cat": "video", "limit": 10},
+  {"name": "AI Explained", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw", "cat": "video", "limit": 10},
+  {"name": "Matt Wolfe", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g", "cat": "video", "limit": 10},
+  {"name": "Andrej Karpathy", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ", "cat": "video", "limit": 10},
+  {"name": "Anthropic", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA", "cat": "video", "limit": 10},
+
+  {"name": "量子位", "url": "https://www.qbitai.com/feed", "cat": "zh", "limit": 20},
+  {"name": "36氪", "url": "https://www.36kr.com/feed", "cat": "zh", "limit": 20, "filter": true},
+  {"name": "雷峰网", "url": "https://www.leiphone.com/feed", "cat": "zh", "limit": 20, "filter": true},
+  {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "cat": "zh", "limit": 20, "filter": true},
+  {"name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "cat": "zh", "limit": 20, "filter": true},
+
+  {"name": "CNBC 市场", "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html", "cat": "finance", "limit": 20},
+  {"name": "CNBC 科技", "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html", "cat": "finance", "limit": 20},
+  {"name": "MarketWatch", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories", "cat": "finance", "limit": 20}
+]
