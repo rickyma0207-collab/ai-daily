@@ -37,6 +37,7 @@
     <div class="hero" id="hero"></div>
     <div class="dots" id="dots"></div>
     <nav class="chips" id="home-cats" aria-label="分类"></nav>
+    <nav class="chips small" id="home-groups" aria-label="话题" hidden></nav>
     <div class="sec-label">
       <span id="home-label">今天</span>
       <select id="range" aria-label="时间范围">
@@ -77,6 +78,18 @@
     <p class="sec-label" id="search-count"></p>
     <div class="list" id="search-list"></div>
     <button class="more" id="search-more" hidden>加载更多</button>
+    <div class="elsewhere" id="elsewhere" hidden></div>
+  </section>
+
+  <!-- 文章页 -->
+  <section class="view" id="view-article" hidden>
+    <div class="art-top">
+      <button class="icon-btn" id="art-back" aria-label="返回">
+        <svg viewBox="0 0 24 24" fill="none"><path d="m15 18-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <span class="art-crumb" id="art-crumb"></span>
+    </div>
+    <article id="art"></article>
   </section>
 
   <!-- 收藏 -->

@@ -1,0 +1,21 @@
+[
+  {"group": "账号政策", "q": "Claude 封号"},
+  {"group": "账号政策", "q": "ChatGPT 封号"},
+  {"group": "账号政策", "q": "Claude account banned", "lang": "en"},
+  {"group": "账号政策", "q": "AI 监管 政策"},
+
+  {"group": "大模型", "q": "ChatGPT OR OpenAI 发布"},
+  {"group": "大模型", "q": "Claude Anthropic"},
+  {"group": "大模型", "q": "Gemini 谷歌 大模型"},
+  {"group": "大模型", "q": "DeepSeek"},
+  {"group": "大模型", "q": "通义千问 OR 豆包 OR Kimi 大模型"},
+
+  {"group": "工具教程", "q": "AI 编程 工具"},
+  {"group": "工具教程", "q": "AI 智能体"},
+  {"group": "工具教程", "q": "AI 绘画 OR AI 视频生成"},
+  {"group": "工具教程", "q": "提示词 技巧"},
+
+  {"group": "公司股票", "q": "英伟达 股价"},
+  {"group": "公司股票", "q": "AI 概念股"},
+  {"group": "公司股票", "q": "Anthropic OR OpenAI 融资 OR 上市"}
+]

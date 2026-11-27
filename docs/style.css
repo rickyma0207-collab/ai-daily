@@ -190,6 +190,45 @@ mark { background: none; color: var(--accent); font-weight: 700; }
 .tabbar a.on { color: var(--accent); font-weight: 700; }
 .tabbar a.on .star-path { fill: currentColor; }
 
+/* 话题子分类、原标题、AI 要点 */
+.chips.small .chip { font-size: 12px; padding: 4px 11px; }
+.tag.topic { --c: #FB923C; }
+.card .orig { margin: 0; font-size: 12px; color: var(--muted); opacity: .8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card .s.ai::before { content: "AI 要点 · "; color: var(--accent); font-weight: 700; }
+.card { cursor: pointer; }
+
+/* 其他平台搜索 */
+.elsewhere { margin-top: 6px; padding: 14px; border-radius: 16px; background: var(--surface); border: 1px dashed var(--line); }
+.elsewhere p { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+.elsewhere .links { display: flex; flex-wrap: wrap; gap: 8px; }
+.elsewhere a, .art-actions a, .art-actions button {
+  display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 12px;
+  background: var(--surface-2); border: 1px solid var(--line); color: var(--text); text-decoration: none; font-size: 13px;
+}
+
+/* 文章页 */
+.art-top { display: flex; align-items: center; gap: 12px; }
+.art-crumb { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#art { display: flex; flex-direction: column; gap: 14px; }
+#art .meta { flex-wrap: wrap; }
+#art h1 { margin: 0; font-size: 22px; line-height: 1.4; font-weight: 800; }
+#art .orig-t { margin: -6px 0 0; font-size: 13px; color: var(--muted); }
+#art .cover { width: 100%; max-height: 240px; object-fit: cover; border-radius: 16px; background: var(--surface); }
+.ai-box {
+  position: relative; padding: 16px 16px 14px; border-radius: 16px;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box, var(--grad) border-box;
+  border: 1px solid transparent;
+}
+.ai-box h2 { margin: 0 0 8px; font-size: 13px; font-weight: 700; color: var(--accent); letter-spacing: .5px; }
+.ai-box ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.6; }
+.ai-box .none { margin: 0; font-size: 13px; color: var(--muted); }
+.art-sum h2 { margin: 0 0 6px; font-size: 13px; color: var(--muted); }
+.art-sum p { margin: 0; font-size: 14px; line-height: 1.7; color: #c9cce3; }
+.art-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.art-actions .primary { background: var(--grad); color: var(--on-accent); font-weight: 700; border-color: transparent; }
+.art-actions button.on { color: var(--star); }
+.note { font-size: 12px; color: var(--muted); margin: 0; }
+
 @media (min-width: 700px) {
   .hero-card { width: 360px; }
 }
